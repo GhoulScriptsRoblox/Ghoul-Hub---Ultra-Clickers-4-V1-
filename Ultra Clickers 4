@@ -1,0 +1,388 @@
+-- Ghoul Hub - Ultra Clickers 4 [V1]
+-- Made by Ghoul Scripts
+-- Subscribe to my YouTube channel : https://www.youtube.com/channel/UCqiDt4odmGjSGfj58XX5oAg
+
+-- Instances:
+
+local ExploitGui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Border = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Border_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local Pages = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local SpawnTP = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local OpenBestEGG = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AutoClickerOFF = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AutoClickerON = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SecretIslandTP = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+
+--Properties:
+
+ExploitGui.Name = "Exploit Gui"
+ExploitGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ExploitGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+frame.Name = "frame"
+frame.Parent = ExploitGui
+frame.Active = true
+frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+frame.BorderSizePixel = 0
+frame.Position = UDim2.new(0.440867424, 0, 0.146423131, 0)
+frame.Selectable = true
+frame.Size = UDim2.new(0, 550, 0, 310)
+frame.ZIndex = 2
+
+UICorner.Parent = frame
+
+Border.Name = "Border"
+Border.Parent = frame
+Border.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Border.Position = UDim2.new(3.20157123e-05, 0, -0.00194953184, 0)
+Border.Size = UDim2.new(0, 549, 0, 44)
+
+UICorner_2.Parent = Border
+
+Frame.Parent = Border
+Frame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0, 38)
+Frame.Size = UDim2.new(0, 549, 0, 5)
+
+TextLabel.Parent = Border
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.0137353381, 0)
+TextLabel.Size = UDim2.new(0, 254, 0, 42)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Ghoul Hub - Ultra Clickers 4"
+TextLabel.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Border_2.Name = "Border"
+Border_2.Parent = frame
+Border_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Border_2.Position = UDim2.new(3.20157123e-05, 0, 0.912779212, 0)
+Border_2.Size = UDim2.new(0, 549, 0, 33)
+
+UICorner_3.Parent = Border_2
+
+Frame_2.Parent = Border_2
+Frame_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.00142101292, 0, 0, 0)
+Frame_2.Size = UDim2.new(0, 549, 0, 6)
+
+Pages.Name = "Pages"
+Pages.Parent = frame
+Pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pages.BackgroundTransparency = 1.000
+Pages.BorderSizePixel = 0
+Pages.Position = UDim2.new(0, 0, 0.139985904, 0)
+Pages.Size = UDim2.new(0, 549, 0, 239)
+
+ScrollingFrame.Parent = Pages
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(-0.0346082672, 19, 0.00599996001, 0)
+ScrollingFrame.Size = UDim2.new(0, 549, 0, 238)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2, 9)
+ScrollingFrame.ScrollBarThickness = 7
+
+SpawnTP.Name = "SpawnTP"
+SpawnTP.Parent = ScrollingFrame
+SpawnTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SpawnTP.Position = UDim2.new(0.24470073, 10, 0.886703372, -280)
+SpawnTP.Size = UDim2.new(0, 124, 0, 48)
+SpawnTP.Font = Enum.Font.SourceSans
+SpawnTP.Text = "Spawn TP"
+SpawnTP.TextColor3 = Color3.fromRGB(235, 235, 235)
+SpawnTP.TextSize = 18.000
+SpawnTP.TextWrapped = true
+
+UICorner_4.Parent = SpawnTP
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton.Position = UDim2.new(0.00200000033, 10, 0.886703372, -280)
+TextButton.Size = UDim2.new(0, 124, 0, 48)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton.TextSize = 18.000
+TextButton.TextWrapped = true
+
+UICorner_5.Parent = TextButton
+
+OpenBestEGG.Name = "OpenBestEGG"
+OpenBestEGG.Parent = ScrollingFrame
+OpenBestEGG.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+OpenBestEGG.Position = UDim2.new(0.733751833, 10, 0.886703372, -280)
+OpenBestEGG.Size = UDim2.new(0, 124, 0, 48)
+OpenBestEGG.Font = Enum.Font.SourceSans
+OpenBestEGG.Text = "Open Best EGG"
+OpenBestEGG.TextColor3 = Color3.fromRGB(235, 235, 235)
+OpenBestEGG.TextSize = 18.000
+OpenBestEGG.TextWrapped = true
+
+UICorner_6.Parent = OpenBestEGG
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_2.Position = UDim2.new(0.489226282, 10, 0.768493712, -280)
+TextButton_2.Size = UDim2.new(0, 124, 0, 48)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_2.TextSize = 18.000
+TextButton_2.TextWrapped = true
+
+UICorner_7.Parent = TextButton_2
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_3.Position = UDim2.new(0.24470073, 10, 0.768493712, -280)
+TextButton_3.Size = UDim2.new(0, 124, 0, 48)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_3.TextSize = 18.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_4.Position = UDim2.new(0.00200000033, 10, 0.768493712, -280)
+TextButton_4.Size = UDim2.new(0, 124, 0, 48)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_4.TextSize = 18.000
+TextButton_4.TextWrapped = true
+
+UICorner_9.Parent = TextButton_4
+
+AutoClickerOFF.Name = "AutoClickerOFF"
+AutoClickerOFF.Parent = ScrollingFrame
+AutoClickerOFF.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+AutoClickerOFF.Position = UDim2.new(0.127076864, 75, 0.65156883, -280)
+AutoClickerOFF.Size = UDim2.new(0, 124, 0, 48)
+AutoClickerOFF.Font = Enum.Font.SourceSans
+AutoClickerOFF.Text = "Auto Clicker OFF"
+AutoClickerOFF.TextColor3 = Color3.fromRGB(235, 235, 235)
+AutoClickerOFF.TextSize = 18.000
+AutoClickerOFF.TextWrapped = true
+
+UICorner_10.Parent = AutoClickerOFF
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_5.Position = UDim2.new(0.185035318, 311, 0.65156883, -280)
+TextButton_5.Size = UDim2.new(0, 124, 0, 48)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_5.TextSize = 18.000
+TextButton_5.TextWrapped = true
+
+UICorner_11.Parent = TextButton_5
+
+AutoClickerON.Name = "AutoClickerON"
+AutoClickerON.Parent = ScrollingFrame
+AutoClickerON.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+AutoClickerON.Position = UDim2.new(0.00219381228, 10, 0.65156883, -280)
+AutoClickerON.Size = UDim2.new(0, 124, 0, 48)
+AutoClickerON.Font = Enum.Font.SourceSans
+AutoClickerON.Text = "Auto Clicker ON"
+AutoClickerON.TextColor3 = Color3.fromRGB(235, 235, 235)
+AutoClickerON.TextSize = 18.000
+AutoClickerON.TextWrapped = true
+
+UICorner_12.Parent = AutoClickerON
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_6.Position = UDim2.new(0.733751833, 10, 0.768493712, -280)
+TextButton_6.Size = UDim2.new(0, 124, 0, 48)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_6.TextSize = 18.000
+TextButton_6.TextWrapped = true
+
+UICorner_13.Parent = TextButton_6
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_7.Position = UDim2.new(0.156056091, 193, 0.65156883, -280)
+TextButton_7.Size = UDim2.new(0, 124, 0, 48)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_7.TextSize = 18.000
+TextButton_7.TextWrapped = true
+
+UICorner_14.Parent = TextButton_7
+
+SecretIslandTP.Name = "SecretIslandTP"
+SecretIslandTP.Parent = ScrollingFrame
+SecretIslandTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SecretIslandTP.Position = UDim2.new(0.489226282, 10, 0.886703372, -280)
+SecretIslandTP.Size = UDim2.new(0, 124, 0, 48)
+SecretIslandTP.Font = Enum.Font.SourceSans
+SecretIslandTP.Text = "Secret Island TP"
+SecretIslandTP.TextColor3 = Color3.fromRGB(235, 235, 235)
+SecretIslandTP.TextSize = 18.000
+SecretIslandTP.TextWrapped = true
+
+UICorner_15.Parent = SecretIslandTP
+
+Close.Name = "Close"
+Close.Parent = frame
+Close.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Close.Position = UDim2.new(0.886932254, 10, 0.917949438, -280)
+Close.Size = UDim2.new(0, 44, 0, 32)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(235, 235, 235)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UICorner_16.Parent = Close
+
+-- Scripts:
+
+local function NTENJG_fake_script() -- SpawnTP.LocalScript 
+	local script = Instance.new('LocalScript', SpawnTP)
+
+	SpawnTP.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
+	end)
+end
+coroutine.wrap(NTENJG_fake_script)()
+local function BOXPQ_fake_script() -- OpenBestEGG.LocalScript 
+	local script = Instance.new('LocalScript', OpenBestEGG)
+
+	OpenBestEGG.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3084.40356, -25.9662075, -2460.28809, -0.0861421227, -3.3901955e-08, 0.996282876, 7.99244972e-08, 1, 4.09389962e-08, -0.996282876, 8.31539779e-08, -0.0861421227)
+		
+		local args = {
+			[1] = "RainbowPlanetEgg",
+			[2] = "Single"
+		}
+
+		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(unpack(args))
+
+	end)
+end
+coroutine.wrap(BOXPQ_fake_script)()
+local function KEUA_fake_script() -- AutoClickerOFF.LocalScript 
+	local script = Instance.new('LocalScript', AutoClickerOFF)
+
+	AutoClickerOFF.MouseButton1Down:connect(function()
+		getgenv().farmer = false;
+
+		--[[while wait() do
+			if getgenv().farmer == true then
+				workspace.Events.AddClick:FireServer()
+			end
+		end--]]
+	end)
+end
+coroutine.wrap(KEUA_fake_script)()
+local function YRIOC_fake_script() -- AutoClickerON.LocalScript 
+	local script = Instance.new('LocalScript', AutoClickerON)
+
+	AutoClickerON.MouseButton1Down:connect(function()
+		getgenv().farmer = true;
+
+		while wait() do
+			if getgenv().farmer == true then
+				workspace.Events.AddClick:FireServer()
+			end
+		end
+	end)
+end
+coroutine.wrap(YRIOC_fake_script)()
+local function VHOQ_fake_script() -- SecretIslandTP.LocalScript 
+	local script = Instance.new('LocalScript', SecretIslandTP)
+
+	SecretIslandTP.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19421.334, -210.606796, -1684.5957, 0.629923582, -4.44061712e-08, 0.776657104, 7.94103894e-09, 1, 5.0735288e-08, -0.776657104, -2.57918895e-08, 0.629923582)
+	end)
+end
+coroutine.wrap(VHOQ_fake_script)()
+local function NABAG_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	end)
+end
+coroutine.wrap(NABAG_fake_script)()
+local function DSWG_fake_script() -- frame.LocalScript 
+	local script = Instance.new('LocalScript', frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(DSWG_fake_script)()

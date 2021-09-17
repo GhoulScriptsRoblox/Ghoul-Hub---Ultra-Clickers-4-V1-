@@ -55,7 +55,7 @@ frame.Parent = ExploitGui
 frame.Active = true
 frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
 frame.BorderSizePixel = 0
-frame.Position = UDim2.new(0.467265904, 0, 0.167877242, 0)
+frame.Position = UDim2.new(0, 746, 0, 336)
 frame.Selectable = true
 frame.Size = UDim2.new(0, 550, 0, 310)
 
@@ -339,10 +339,10 @@ local function HSPPF_fake_script() -- AutoOpenBestEggOFF.LocalScript
 
 		--[[while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3084.40356, -25.9662075, -2460.28809, -0.0861421227, -3.3901955e-08, 0.996282876, 7.99244972e-08, 1, 4.09389962e-08, -0.996282876, 8.31539779e-08, -0.0861421227)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4481.54932, -25.9682026, -2466.72656, -0.0705996528, -9.76276553e-08, 0.997504711, -6.44382752e-08, 1, 9.33111721e-08, -0.997504711, -5.76897463e-08, -0.0705996528)
 		
 		local args = {
-			[1] = "RainbowPlanetEgg",
+			[1] = "BluePlanetEgg",
 			[2] = "Single"
 		}
 
@@ -374,10 +374,10 @@ local function RNEMUX_fake_script() -- AutoOpenBestEggON.LocalScript
 
 		while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3084.40356, -25.9662075, -2460.28809, -0.0861421227, -3.3901955e-08, 0.996282876, 7.99244972e-08, 1, 4.09389962e-08, -0.996282876, 8.31539779e-08, -0.0861421227)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4481.54932, -25.9682026, -2466.72656, -0.0705996528, -9.76276553e-08, 0.997504711, -6.44382752e-08, 1, 9.33111721e-08, -0.997504711, -5.76897463e-08, -0.0705996528)
 
 				local args = {
-					[1] = "RainbowPlanetEgg",
+					[1] = "BluePlanetEgg",
 					[2] = "Single"
 				}
 

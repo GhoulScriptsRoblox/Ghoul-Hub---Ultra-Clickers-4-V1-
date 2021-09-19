@@ -1,10 +1,10 @@
--- Ghoul Hub - Ultra Clickers 4 [ V1 ]
+-- Ghoul Hub V1 - Ultra Clickers 4
 -- Made by Ghoul Scripts
 -- Subscribe to my YouTube channel : https://www.youtube.com/channel/UCqiDt4odmGjSGfj58XX5oAg
 
 -- Instances:
 
-local ExploitGui = Instance.new("ScreenGui")
+local UltraClicekrs4 = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Border = Instance.new("Frame")
@@ -16,17 +16,17 @@ local UICorner_3 = Instance.new("UICorner")
 local BorderLine_2 = Instance.new("Frame")
 local Pages = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local SpawnTP = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local SecretIslandTP = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local TextButton_2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local TextButton_3 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local TextButton_4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local AutoClickerOFF = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
@@ -34,24 +34,49 @@ local AutoOpenBestEggOFF = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local AutoClickerON = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local TextButton_5 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
 local AutoOpenBestEggON = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local MoonWorldTP = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local SpawnTP = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local MoonWorldTP = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local SecretIslandTP = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local SecretIsland2TP = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
 
 --Properties:
 
-ExploitGui.Name = "Exploit Gui"
-ExploitGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ExploitGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ExploitGui.ResetOnSpawn = false
+UltraClicekrs4.Name = "Ultra Clicekrs 4"
+UltraClicekrs4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UltraClicekrs4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+UltraClicekrs4.ResetOnSpawn = false
 
 frame.Name = "frame"
-frame.Parent = ExploitGui
+frame.Parent = UltraClicekrs4
 frame.Active = true
 frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
 frame.BorderSizePixel = 0
@@ -122,27 +147,13 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(-0.0346082672, 19, 0.00599996001, 0)
 ScrollingFrame.Size = UDim2.new(0, 549, 0, 238)
-ScrollingFrame.ZIndex = 2
+ScrollingFrame.CanvasPosition = Vector2.new(0, 99.0000305)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2, 9)
 ScrollingFrame.ScrollBarThickness = 7
 
-SpawnTP.Name = "SpawnTP"
-SpawnTP.Parent = ScrollingFrame
-SpawnTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-SpawnTP.Position = UDim2.new(0.24470073, 10, 0.886703372, -280)
-SpawnTP.Selectable = false
-SpawnTP.Size = UDim2.new(0, 124, 0, 48)
-SpawnTP.Font = Enum.Font.SourceSans
-SpawnTP.Text = "Spawn TP"
-SpawnTP.TextColor3 = Color3.fromRGB(235, 235, 235)
-SpawnTP.TextSize = 18.000
-SpawnTP.TextWrapped = true
-
-UICorner_4.Parent = SpawnTP
-
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-TextButton.Position = UDim2.new(0.00200000033, 10, 0.886703372, -280)
+TextButton.Position = UDim2.new(0.24470073, 10, 0.886703372, -280)
 TextButton.Selectable = false
 TextButton.Size = UDim2.new(0, 124, 0, 48)
 TextButton.Font = Enum.Font.SourceSans
@@ -150,25 +161,11 @@ TextButton.TextColor3 = Color3.fromRGB(235, 235, 235)
 TextButton.TextSize = 18.000
 TextButton.TextWrapped = true
 
-UICorner_5.Parent = TextButton
-
-SecretIslandTP.Name = "SecretIslandTP"
-SecretIslandTP.Parent = ScrollingFrame
-SecretIslandTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-SecretIslandTP.Position = UDim2.new(0.733751833, 10, 0.886703372, -280)
-SecretIslandTP.Selectable = false
-SecretIslandTP.Size = UDim2.new(0, 124, 0, 48)
-SecretIslandTP.Font = Enum.Font.SourceSans
-SecretIslandTP.Text = "Secret Island TP"
-SecretIslandTP.TextColor3 = Color3.fromRGB(235, 235, 235)
-SecretIslandTP.TextSize = 18.000
-SecretIslandTP.TextWrapped = true
-
-UICorner_6.Parent = SecretIslandTP
+UICorner_4.Parent = TextButton
 
 TextButton_2.Parent = ScrollingFrame
 TextButton_2.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-TextButton_2.Position = UDim2.new(0.489226282, 10, 0.768493712, -280)
+TextButton_2.Position = UDim2.new(0.00200000033, 10, 0.886703372, -280)
 TextButton_2.Selectable = false
 TextButton_2.Size = UDim2.new(0, 124, 0, 48)
 TextButton_2.Font = Enum.Font.SourceSans
@@ -176,11 +173,11 @@ TextButton_2.TextColor3 = Color3.fromRGB(235, 235, 235)
 TextButton_2.TextSize = 18.000
 TextButton_2.TextWrapped = true
 
-UICorner_7.Parent = TextButton_2
+UICorner_5.Parent = TextButton_2
 
 TextButton_3.Parent = ScrollingFrame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-TextButton_3.Position = UDim2.new(0.24470073, 10, 0.768493712, -280)
+TextButton_3.Position = UDim2.new(0.733751833, 10, 0.886703372, -280)
 TextButton_3.Selectable = false
 TextButton_3.Size = UDim2.new(0, 124, 0, 48)
 TextButton_3.Font = Enum.Font.SourceSans
@@ -188,11 +185,11 @@ TextButton_3.TextColor3 = Color3.fromRGB(235, 235, 235)
 TextButton_3.TextSize = 18.000
 TextButton_3.TextWrapped = true
 
-UICorner_8.Parent = TextButton_3
+UICorner_6.Parent = TextButton_3
 
 TextButton_4.Parent = ScrollingFrame
 TextButton_4.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-TextButton_4.Position = UDim2.new(0.00200000033, 10, 0.768493712, -280)
+TextButton_4.Position = UDim2.new(0.489226282, 10, 0.768493712, -280)
 TextButton_4.Selectable = false
 TextButton_4.Size = UDim2.new(0, 124, 0, 48)
 TextButton_4.Font = Enum.Font.SourceSans
@@ -200,7 +197,31 @@ TextButton_4.TextColor3 = Color3.fromRGB(235, 235, 235)
 TextButton_4.TextSize = 18.000
 TextButton_4.TextWrapped = true
 
-UICorner_9.Parent = TextButton_4
+UICorner_7.Parent = TextButton_4
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_5.Position = UDim2.new(0.24470073, 10, 0.768493712, -280)
+TextButton_5.Selectable = false
+TextButton_5.Size = UDim2.new(0, 124, 0, 48)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_5.TextSize = 18.000
+TextButton_5.TextWrapped = true
+
+UICorner_8.Parent = TextButton_5
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_6.Position = UDim2.new(0.00200000033, 10, 0.768493712, -280)
+TextButton_6.Selectable = false
+TextButton_6.Size = UDim2.new(0, 124, 0, 48)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_6.TextSize = 18.000
+TextButton_6.TextWrapped = true
+
+UICorner_9.Parent = TextButton_6
 
 AutoClickerOFF.Name = "AutoClickerOFF"
 AutoClickerOFF.Parent = ScrollingFrame
@@ -244,17 +265,17 @@ AutoClickerON.TextWrapped = true
 
 UICorner_12.Parent = AutoClickerON
 
-TextButton_5.Parent = ScrollingFrame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-TextButton_5.Position = UDim2.new(0.733751833, 10, 0.768493712, -280)
-TextButton_5.Selectable = false
-TextButton_5.Size = UDim2.new(0, 124, 0, 48)
-TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.TextColor3 = Color3.fromRGB(235, 235, 235)
-TextButton_5.TextSize = 18.000
-TextButton_5.TextWrapped = true
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_7.Position = UDim2.new(0.733751833, 10, 0.768493712, -280)
+TextButton_7.Selectable = false
+TextButton_7.Size = UDim2.new(0, 124, 0, 48)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_7.TextSize = 18.000
+TextButton_7.TextWrapped = true
 
-UICorner_13.Parent = TextButton_5
+UICorner_13.Parent = TextButton_7
 
 AutoOpenBestEggON.Name = "AutoOpenBestEggON"
 AutoOpenBestEggON.Parent = ScrollingFrame
@@ -270,10 +291,132 @@ AutoOpenBestEggON.TextWrapped = true
 
 UICorner_14.Parent = AutoOpenBestEggON
 
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_8.Position = UDim2.new(0.489226282, 10, 0.886703372, -280)
+TextButton_8.Selectable = false
+TextButton_8.Size = UDim2.new(0, 124, 0, 48)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_8.TextSize = 18.000
+TextButton_8.TextWrapped = true
+
+UICorner_15.Parent = TextButton_8
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_9.Position = UDim2.new(0.49104777, 10, 1.28941441, -280)
+TextButton_9.Selectable = false
+TextButton_9.Size = UDim2.new(0, 124, 0, 48)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_9.TextSize = 18.000
+TextButton_9.TextWrapped = true
+
+UICorner_16.Parent = TextButton_9
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_10.Position = UDim2.new(0.00382149406, 10, 1.28941441, -280)
+TextButton_10.Selectable = false
+TextButton_10.Size = UDim2.new(0, 124, 0, 48)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_10.TextSize = 18.000
+TextButton_10.TextWrapped = true
+
+UICorner_17.Parent = TextButton_10
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_11.Position = UDim2.new(0.735573351, 10, 1.28941441, -280)
+TextButton_11.Selectable = false
+TextButton_11.Size = UDim2.new(0, 124, 0, 48)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_11.TextSize = 18.000
+TextButton_11.TextWrapped = true
+
+UICorner_18.Parent = TextButton_11
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_12.Position = UDim2.new(0.00382149406, 10, 1.40762401, -280)
+TextButton_12.Selectable = false
+TextButton_12.Size = UDim2.new(0, 124, 0, 48)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_12.TextSize = 18.000
+TextButton_12.TextWrapped = true
+
+UICorner_19.Parent = TextButton_12
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_13.Position = UDim2.new(0.246522218, 10, 1.28941441, -280)
+TextButton_13.Selectable = false
+TextButton_13.Size = UDim2.new(0, 124, 0, 48)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_13.TextSize = 18.000
+TextButton_13.TextWrapped = true
+
+UICorner_20.Parent = TextButton_13
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_14.Position = UDim2.new(0.735573351, 10, 1.40762401, -280)
+TextButton_14.Selectable = false
+TextButton_14.Size = UDim2.new(0, 124, 0, 48)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_14.TextSize = 18.000
+TextButton_14.TextWrapped = true
+
+UICorner_21.Parent = TextButton_14
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_15.Position = UDim2.new(0.246522218, 10, 1.40762401, -280)
+TextButton_15.Selectable = false
+TextButton_15.Size = UDim2.new(0, 124, 0, 48)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_15.TextSize = 18.000
+TextButton_15.TextWrapped = true
+
+UICorner_22.Parent = TextButton_15
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+TextButton_16.Position = UDim2.new(0.49104777, 10, 1.40762401, -280)
+TextButton_16.Selectable = false
+TextButton_16.Size = UDim2.new(0, 124, 0, 48)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextButton_16.TextSize = 18.000
+TextButton_16.TextWrapped = true
+
+UICorner_23.Parent = TextButton_16
+
+SpawnTP.Name = "SpawnTP"
+SpawnTP.Parent = ScrollingFrame
+SpawnTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SpawnTP.Position = UDim2.new(0.00401530601, 10, 1.1724894, -280)
+SpawnTP.Selectable = false
+SpawnTP.Size = UDim2.new(0, 124, 0, 48)
+SpawnTP.Font = Enum.Font.SourceSans
+SpawnTP.Text = "Spawn TP"
+SpawnTP.TextColor3 = Color3.fromRGB(235, 235, 235)
+SpawnTP.TextSize = 18.000
+SpawnTP.TextWrapped = true
+
+UICorner_24.Parent = SpawnTP
+
 MoonWorldTP.Name = "MoonWorldTP"
 MoonWorldTP.Parent = ScrollingFrame
 MoonWorldTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-MoonWorldTP.Position = UDim2.new(0.489226282, 10, 0.886703372, -280)
+MoonWorldTP.Position = UDim2.new(0.128898352, 75, 1.1724894, -280)
 MoonWorldTP.Selectable = false
 MoonWorldTP.Size = UDim2.new(0, 124, 0, 48)
 MoonWorldTP.Font = Enum.Font.SourceSans
@@ -282,7 +425,45 @@ MoonWorldTP.TextColor3 = Color3.fromRGB(235, 235, 235)
 MoonWorldTP.TextSize = 18.000
 MoonWorldTP.TextWrapped = true
 
-UICorner_15.Parent = MoonWorldTP
+UICorner_25.Parent = MoonWorldTP
+
+SecretIslandTP.Name = "SecretIslandTP"
+SecretIslandTP.Parent = ScrollingFrame
+SecretIslandTP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SecretIslandTP.Position = UDim2.new(0.157877579, 193, 1.1724894, -280)
+SecretIslandTP.Selectable = false
+SecretIslandTP.Size = UDim2.new(0, 124, 0, 48)
+SecretIslandTP.Font = Enum.Font.SourceSans
+SecretIslandTP.Text = "Secret Island TP"
+SecretIslandTP.TextColor3 = Color3.fromRGB(235, 235, 235)
+SecretIslandTP.TextSize = 18.000
+SecretIslandTP.TextWrapped = true
+
+UICorner_26.Parent = SecretIslandTP
+
+SecretIsland2TP.Name = "SecretIsland2TP"
+SecretIsland2TP.Parent = ScrollingFrame
+SecretIsland2TP.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+SecretIsland2TP.Position = UDim2.new(0.186856806, 311, 1.1724894, -280)
+SecretIsland2TP.Selectable = false
+SecretIsland2TP.Size = UDim2.new(0, 124, 0, 48)
+SecretIsland2TP.Font = Enum.Font.SourceSans
+SecretIsland2TP.Text = "Secret island 2 TP"
+SecretIsland2TP.TextColor3 = Color3.fromRGB(235, 235, 235)
+SecretIsland2TP.TextSize = 18.000
+SecretIsland2TP.TextWrapped = true
+
+UICorner_27.Parent = SecretIsland2TP
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.318761408, 0, 0.453974903, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "-- Teleports --"
+TextLabel.TextColor3 = Color3.fromRGB(235, 235, 235)
+TextLabel.TextSize = 30.000
 
 Close.Name = "Close"
 Close.Parent = frame
@@ -297,27 +478,11 @@ Close.TextScaled = true
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_16.Parent = Close
+UICorner_28.Parent = Close
 
 -- Scripts:
 
-local function QWRMWXW_fake_script() -- SpawnTP.LocalScript 
-	local script = Instance.new('LocalScript', SpawnTP)
-
-	SpawnTP.MouseButton1Down:connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1173.37964, -38.6989517, 577.089905, 0.998516858, -2.62784603e-08, -0.0544430353, 2.23005898e-08, 1, -7.36723464e-08, 0.0544430353, 7.23489748e-08, 0.998516858)
-	end)
-end
-coroutine.wrap(QWRMWXW_fake_script)()
-local function RBCAEUY_fake_script() -- SecretIslandTP.LocalScript 
-	local script = Instance.new('LocalScript', SecretIslandTP)
-
-	SecretIslandTP.MouseButton1Down:connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19421.334, -210.606796, -1684.5957, 0.629923582, -4.44061712e-08, 0.776657104, 7.94103894e-09, 1, 5.0735288e-08, -0.776657104, -2.57918895e-08, 0.629923582)
-	end)
-end
-coroutine.wrap(RBCAEUY_fake_script)()
-local function TLNVL_fake_script() -- AutoClickerOFF.LocalScript 
+local function NMJOGX_fake_script() -- AutoClickerOFF.LocalScript 
 	local script = Instance.new('LocalScript', AutoClickerOFF)
 
 	AutoClickerOFF.MouseButton1Down:connect(function()
@@ -330,8 +495,8 @@ local function TLNVL_fake_script() -- AutoClickerOFF.LocalScript
 		end--]]
 	end)
 end
-coroutine.wrap(TLNVL_fake_script)()
-local function HSPPF_fake_script() -- AutoOpenBestEggOFF.LocalScript 
+coroutine.wrap(NMJOGX_fake_script)()
+local function HOCP_fake_script() -- AutoOpenBestEggOFF.LocalScript 
 	local script = Instance.new('LocalScript', AutoOpenBestEggOFF)
 
 	AutoOpenBestEggOFF.MouseButton1Down:connect(function()
@@ -339,10 +504,10 @@ local function HSPPF_fake_script() -- AutoOpenBestEggOFF.LocalScript
 
 		--[[while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4481.54932, -25.9682026, -2466.72656, -0.0705996528, -9.76276553e-08, 0.997504711, -6.44382752e-08, 1, 9.33111721e-08, -0.997504711, -5.76897463e-08, -0.0705996528)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4847.53418, -23.7960529, -2467.25146, -0.0875143409, 6.5421581e-08, 0.996163249, -1.89116385e-08, 1, -6.73349732e-08, -0.996163249, -2.47318539e-08, -0.0875143409)
 		
 		local args = {
-			[1] = "BluePlanetEgg",
+			[1] = "GameOverEgg",
 			[2] = "Single"
 		}
 
@@ -351,8 +516,8 @@ local function HSPPF_fake_script() -- AutoOpenBestEggOFF.LocalScript
 		end--]]
 	end)
 end
-coroutine.wrap(HSPPF_fake_script)()
-local function ETNNKZ_fake_script() -- AutoClickerON.LocalScript 
+coroutine.wrap(HOCP_fake_script)()
+local function PBPKIQT_fake_script() -- AutoClickerON.LocalScript 
 	local script = Instance.new('LocalScript', AutoClickerON)
 
 	AutoClickerON.MouseButton1Down:connect(function()
@@ -365,8 +530,8 @@ local function ETNNKZ_fake_script() -- AutoClickerON.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ETNNKZ_fake_script)()
-local function RNEMUX_fake_script() -- AutoOpenBestEggON.LocalScript 
+coroutine.wrap(PBPKIQT_fake_script)()
+local function CONC_fake_script() -- AutoOpenBestEggON.LocalScript 
 	local script = Instance.new('LocalScript', AutoOpenBestEggON)
 
 	AutoOpenBestEggON.MouseButton1Down:connect(function()
@@ -374,10 +539,10 @@ local function RNEMUX_fake_script() -- AutoOpenBestEggON.LocalScript
 
 		while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4481.54932, -25.9682026, -2466.72656, -0.0705996528, -9.76276553e-08, 0.997504711, -6.44382752e-08, 1, 9.33111721e-08, -0.997504711, -5.76897463e-08, -0.0705996528)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4847.53418, -23.7960529, -2467.25146, -0.0875143409, 6.5421581e-08, 0.996163249, -1.89116385e-08, 1, -6.73349732e-08, -0.996163249, -2.47318539e-08, -0.0875143409)
 
 				local args = {
-					[1] = "BluePlanetEgg",
+					[1] = "GameOverEgg",
 					[2] = "Single"
 				}
 
@@ -386,16 +551,40 @@ local function RNEMUX_fake_script() -- AutoOpenBestEggON.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RNEMUX_fake_script)()
-local function VSKXR_fake_script() -- MoonWorldTP.LocalScript 
+coroutine.wrap(CONC_fake_script)()
+local function GKIM_fake_script() -- SpawnTP_2.LocalScript 
+	local script = Instance.new('LocalScript', SpawnTP_2)
+
+	SpawnTP.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1174.34143, -40.7038803, 578.889709, 0.999416232, 0.000104351646, -0.0341643281, -0.000114671726, 0.99999994, -0.000300112704, 0.0341642946, 0.000303855166, 0.999416173)
+	end)
+end
+coroutine.wrap(GKIM_fake_script)()
+local function BJBJJ_fake_script() -- MoonWorldTP.LocalScript 
 	local script = Instance.new('LocalScript', MoonWorldTP)
 
 	MoonWorldTP.MouseButton1Down:connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2074.46973, -38.4468231, -1820.43762, -0.241830096, 6.72310563e-09, -0.970318615, -3.72946651e-09, 1, 7.8582465e-09, 0.970318615, 5.51913093e-09, -0.241830096)
 	end)
 end
-coroutine.wrap(VSKXR_fake_script)()
-local function EKBGMG_fake_script() -- Close.LocalScript 
+coroutine.wrap(BJBJJ_fake_script)()
+local function CMBMM_fake_script() -- SecretIslandTP.LocalScript 
+	local script = Instance.new('LocalScript', SecretIslandTP)
+
+	SecretIslandTP.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-19421.334, -210.606796, -1684.5957, 0.629923582, -4.44061712e-08, 0.776657104, 7.94103894e-09, 1, 5.0735288e-08, -0.776657104, -2.57918895e-08, 0.629923582)
+	end)
+end
+coroutine.wrap(CMBMM_fake_script)()
+local function LLMYG_fake_script() -- SecretIsland2TP.LocalScript 
+	local script = Instance.new('LocalScript', SecretIsland2TP)
+
+	SecretIsland2TP.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1141.03125, -117.432518, 518.64624, -0.358780622, 4.61593963e-08, -0.93342191, 8.17239787e-09, 1, 4.63105678e-08, 0.93342191, 8.98703867e-09, -0.358780622)
+	end)
+end
+coroutine.wrap(LLMYG_fake_script)()
+local function BLXIQJ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -403,8 +592,8 @@ local function EKBGMG_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(EKBGMG_fake_script)()
-local function SHWE_fake_script() -- frame.LocalScript 
+coroutine.wrap(BLXIQJ_fake_script)()
+local function RGABDO_fake_script() -- frame.Draggable 
 	local script = Instance.new('LocalScript', frame)
 
 	local UIS = game:GetService('UserInputService')
@@ -442,4 +631,4 @@ local function SHWE_fake_script() -- frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SHWE_fake_script)()
+coroutine.wrap(RGABDO_fake_script)()

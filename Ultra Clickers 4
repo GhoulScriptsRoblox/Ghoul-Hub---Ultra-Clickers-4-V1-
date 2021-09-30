@@ -504,10 +504,10 @@ local function HOCP_fake_script() -- AutoOpenBestEggOFF.LocalScript
 
 		--[[while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4847.53418, -23.7960529, -2467.25146, -0.0875143409, 6.5421581e-08, 0.996163249, -1.89116385e-08, 1, -6.73349732e-08, -0.996163249, -2.47318539e-08, -0.0875143409)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5873.92773, -25.9682026, -2401.71484, -0.0709527731, 5.73836552e-08, 0.997479677, -6.11522921e-08, 1, -6.18785307e-08, -0.997479677, -6.5388619e-08, -0.0709527731)
 		
 		local args = {
-			[1] = "GameOverEgg",
+			[1] = "GhostEgg",
 			[2] = "Single"
 		}
 
@@ -539,10 +539,10 @@ local function CONC_fake_script() -- AutoOpenBestEggON.LocalScript
 
 		while wait() do
 			if getgenv().AutoOpenBestEggOn == true then
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4847.53418, -23.7960529, -2467.25146, -0.0875143409, 6.5421581e-08, 0.996163249, -1.89116385e-08, 1, -6.73349732e-08, -0.996163249, -2.47318539e-08, -0.0875143409)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5873.92773, -25.9682026, -2401.71484, -0.0709527731, 5.73836552e-08, 0.997479677, -6.11522921e-08, 1, -6.18785307e-08, -0.997479677, -6.5388619e-08, -0.0709527731)
 
 				local args = {
-					[1] = "GameOverEgg",
+					[1] = "GhostEgg",
 					[2] = "Single"
 				}
 
